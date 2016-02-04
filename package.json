@@ -1,7 +1,7 @@
 {
-  "name": "webpack-cleanup-plugin",
-  "version": "0.1.0",
-  "description": "Plugin for webpack to cleanup extraneous files from the output path directory",
+  "name": "webpack-cleanup-plugin-morinted",
+  "version": "0.0.1",
+  "description": "Fork of webpack-cleanup-plugin.",
   "main": "./lib/WebpackCleanupPlugin.js",
   "scripts": {
     "prepublish": "babel ./src -d ./lib --source-maps",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gpbl/webpack-cleanup-plugin.git"
+    "url": "git+https://github.com/morinted/webpack-cleanup-plugin.git"
   },
   "keywords": [
     "webpack",
     "webpack-plugin"
   ],
-  "author": "gpbl <io@gpbl.org> (https://github.com/gpbl)",
+  "author": "Ted Morin <morinted@gmail.com> (https://GitHub.com/morinted)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gpbl/webpack-cleanup-plugin/issues"
+    "url": "https://github.com/morinted/webpack-cleanup-plugin/issues"
   },
-  "homepage": "https://github.com/gpbl/webpack-cleanup-plugin#readme",
+  "homepage": "https://github.com/morinted/webpack-cleanup-plugin#readme",
   "devDependencies": {
     "babel": "5.8.21",
     "eslint": "1.2.1",
